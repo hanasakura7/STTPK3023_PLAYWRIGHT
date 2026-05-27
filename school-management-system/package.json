@@ -1,0 +1,15 @@
+{
+  "name": "school-management-system",
+  "version": "1.0.0",
+  "description": "PHP School management system developed for schools or small institutes. You can use this to maintain record's related to students, teachers, and other. [Click here to view a live demo](https://sms.oranbyte.com)",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1"
+  }
+}
