@@ -1,0 +1,128 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - alert [ref=e2]:
+    - button "Close" [ref=e5] [cursor=pointer]
+  - text:        
+  - generic [ref=e6]:
+    - link "ERP" [ref=e7] [cursor=pointer]:
+      - /url: dashboard.php
+      - img [ref=e8]
+      - generic [ref=e9]: ERP
+    - list
+    - list [ref=e10]:
+      - listitem [ref=e11]:
+        - link " Dashboard" [ref=e12] [cursor=pointer]:
+          - /url: dashboard.php
+          - generic [ref=e13]: 
+          - text: Dashboard
+      - listitem [ref=e14]:
+        - link " Teacher" [ref=e15] [cursor=pointer]:
+          - /url: teacher.php
+          - generic [ref=e16]: 
+          - text: Teacher
+      - listitem [ref=e17]:
+        - link " Student" [ref=e18] [cursor=pointer]:
+          - /url: student.php
+          - generic [ref=e19]: 
+          - text: Student
+      - listitem [ref=e20]:
+        - link " Subjects" [ref=e21] [cursor=pointer]:
+          - /url: subjects.php
+          - generic [ref=e22]: 
+          - text: Subjects
+      - listitem [ref=e23]:
+        - link " Attendence" [ref=e24] [cursor=pointer]:
+          - /url: attendence.php
+          - generic [ref=e25]: 
+          - text: Attendence
+      - listitem [ref=e26]:
+        - link " Notice Board" [ref=e27] [cursor=pointer]:
+          - /url: noticeboard.php
+          - generic [ref=e28]: 
+          - text: Notice Board
+      - listitem [ref=e29]:
+        - link " Time Table" [ref=e30] [cursor=pointer]:
+          - /url: timetable.php
+          - generic [ref=e31]: 
+          - text: Time Table
+      - listitem [ref=e32]:
+        - link " Syllabus" [ref=e33] [cursor=pointer]:
+          - /url: syllabus.php
+          - generic [ref=e34]: 
+          - text: Syllabus
+      - listitem [ref=e35]:
+        - link " Notes" [ref=e36] [cursor=pointer]:
+          - /url: notes.php
+          - generic [ref=e37]: 
+          - text: Notes
+      - listitem [ref=e38]:
+        - link " Marks" [ref=e39] [cursor=pointer]:
+          - /url: marks.php
+          - generic [ref=e40]: 
+          - text: Marks
+      - listitem [ref=e41]:
+        - link " Bus Service" [ref=e42] [cursor=pointer]:
+          - /url: buses.php
+          - generic [ref=e43]: 
+          - text: Bus Service
+      - listitem [ref=e44]:
+        - link " Settings" [ref=e45] [cursor=pointer]:
+          - /url: settings.php
+          - generic [ref=e46]: 
+          - text: Settings
+    - list [ref=e47]:
+      - listitem [ref=e48]:
+        - generic [ref=e49] [cursor=pointer]:
+          - generic [ref=e50]: 
+          - text: Logout
+  - generic [ref=e51]:
+    - navigation [ref=e52]:
+      - generic [ref=e53] [cursor=pointer]: 
+      - generic [ref=e55]:
+        - searchbox "Search..." [ref=e56]
+        - button "" [ref=e57] [cursor=pointer]:
+          - generic [ref=e58]: 
+      - generic [ref=e62] [cursor=pointer]: EN
+      - link [ref=e64] [cursor=pointer]:
+        - /url: settings.php
+        - img [ref=e65]
+      - link "" [ref=e67] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e68]: 
+    - main [ref=e69]:
+      - generic [ref=e71]:
+        - heading "Students" [level=1] [ref=e72]
+        - list [ref=e73]:
+          - listitem [ref=e74]:
+            - link:
+              - /url: "#"
+      - generic [ref=e76]:
+        - tablist [ref=e77]:
+          - tab "Add Students" [selected] [ref=e78] [cursor=pointer]
+          - tab "Show Students" [ref=e79] [cursor=pointer]
+          - tab "Feedback" [ref=e80] [cursor=pointer]
+        - generic [ref=e81]:
+          - tabpanel [ref=e82]:
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - generic [ref=e85] [cursor=pointer]: 
+                - heading "Students" [level=3] [ref=e86]
+                - generic [ref=e90] [cursor=pointer]: 
+              - separator [ref=e91]
+              - list [ref=e93]:
+                - listitem [ref=e95] [cursor=pointer]:
+                  - generic [ref=e96]: 
+                  - generic [ref=e97]:
+                    - heading "Add" [level=3] [ref=e98]
+                    - heading "Student" [level=3] [ref=e99]
+                - listitem [ref=e101] [cursor=pointer]:
+                  - generic [ref=e102]: 
+                  - generic [ref=e103]:
+                    - heading "Remove" [level=3] [ref=e104]
+                    - heading "Student" [level=3] [ref=e105]
+              - separator [ref=e106]
+          - text:       
+          - text:    
+```
