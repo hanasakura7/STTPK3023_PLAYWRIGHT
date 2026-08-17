@@ -1,6 +1,8 @@
 # STTPK3023 — Software Testing with Playwright
 
-Coursework for **STTPK3023 (Software Testing)**. This repository contains automated end-to-end tests written with [Playwright](https://playwright.dev/) against an open-source PHP **School Management System (SMS)**, along with the accompanying test plan, test results, and supporting documentation.
+Coursework for **STTPK3023 (Software Testing)**. 
+
+This repository contains automated end-to-end tests written with [Playwright](https://playwright.dev/) against an open-source PHP **School Management System (SMS)**, along with the accompanying test plan, test results, and supporting documentation.
 
 The testing covers two areas:
 
@@ -9,7 +11,7 @@ The testing covers two areas:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 | Path | Description |
 |------|-------------|
@@ -23,15 +25,15 @@ The testing covers two areas:
 
 ---
 
-## 🧪 Test Coverage
+## Test Coverage
 
 ### Functional Requirement Tests (`project-functionalreq/tests/`)
 
 | Spec file | Test cases |
 |-----------|------------|
-| `adminPasswordvalidation.spec.js` | ① Change password successfully ② Change password with mismatched confirmation ③ Old password rejected after change |
-| `adminProfilevalidation.spec.js` | ① Edit profile with valid details ② Edit profile with empty required fields ③ Edit profile with invalid phone number |
-| `teacherLeavevalidation.spec.js` | ① Apply for a new leave successfully ② Validation errors for empty fields |
+| `adminPasswordvalidation.spec.js` | Change password successfully, Change password with mismatched confirmation, Old password rejected after change |
+| `adminProfilevalidation.spec.js` | Edit profile with valid details, Edit profile with empty required fields, Edit profile with invalid phone number |
+| `teacherLeavevalidation.spec.js` | Apply for a new leave successfully, Validation errors for empty fields |
 
 ### Reliability Test (`asg2-playwright-reliabilitytest/`)
 
@@ -42,7 +44,7 @@ The testing covers two areas:
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 - **[Node.js](https://nodejs.org/)** (v18+ recommended) and npm
 - A local PHP + MySQL server (e.g. **[XAMPP](https://www.apachefriends.org/)**) serving the SMS app at:
@@ -62,7 +64,7 @@ The testing covers two areas:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Set up the application under test
 
@@ -100,7 +102,7 @@ npx playwright show-report
 
 ---
 
-## ⚙️ Configuration Notes
+## Configuration Notes
 
 - Reliability test config (`asg2-playwright-reliabilitytest/playwright.config.js`) runs in **headed mode** with `slowMo` so the runs are visible on screen.
 - The SMS test config (`school-management-system/playwright.config.js`) enables `video`, `screenshot`, and `trace` for every run.
@@ -108,7 +110,7 @@ npx playwright show-report
 
 ---
 
-## ✅ Test Results Summary
+## Test Results Summary
 
 | ID | Module | Scenario | Type | Expected result |
 |----|--------|----------|------|-----------------|
@@ -127,7 +129,7 @@ npx playwright show-report
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 **Admin – Change Password** (`sms_5`)
 
@@ -155,12 +157,9 @@ npx playwright show-report
 
 ---
 
-## 📄 Documentation
+## Documentation
 
 The PDF documents in the repository root capture the formal deliverables: the **test plan**, the **test results**, and the **individual assignment report**.
 
 ---
 
-## 👤 Author
-
-Hana Syakirah — STTPK3023, Software Testing coursework.
