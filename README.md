@@ -161,5 +161,3 @@ npx playwright show-report
 
 The PDF documents in the repository root capture the formal deliverables: the **test plan**, the **test results**, and the **individual assignment report**.
 
----
-
